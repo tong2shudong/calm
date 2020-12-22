@@ -6,7 +6,7 @@ class Config(object):
     def __init__(self):
         self.poplution_size = 50
         self.crossover_rate = 0.8
-        self.init_poplution_file_name = '/home/jeffzhu/aaai_ga/data/randomv2.sdf'
+        self.init_poplution_file_name = './randomv2.sdf'
         self.crossover_mu = 0.5
         self.crossover_sigma = 0.1
         self.graph_size = 80
